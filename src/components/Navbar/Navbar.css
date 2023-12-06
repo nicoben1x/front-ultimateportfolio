@@ -1,0 +1,18 @@
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: var(--color-one);
+    height: 3.7em;
+    width: 100%;
+    position: fixed; /* Fija la barra de navegación en la parte superior de la ventana */
+    top: 0; /* Coloca la barra de navegación en la parte superior */
+    margin-bottom: 3.7em;
+}
+
+.Navbar .navbar-menu{
+    color:var(--color-three);
+    margin: auto 0;
+    background-color: transparent;
+    margin-right: 0.5em;
+}

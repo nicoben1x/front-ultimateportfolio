@@ -1,0 +1,55 @@
+.TextPresentation{
+    margin-top: 3.7em;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: center;
+    align-items: start;
+    padding: 1em;
+    height: 100vh;
+}
+
+.TextPresentation p{
+    font-size: 1.2em;
+    text-align:left;
+    margin: 0;
+    padding: 0;
+    color: var(--color-one);
+}
+
+.TextPresentation h1{
+    font-size: 3.5em;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    line-height: 1.1em;
+    margin-bottom: 0.1em;
+    color: var(--color-one);
+   
+}
+
+.TextPresentation h2{
+    font-size: 1.8em;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    color: var(--color-two);
+  
+}
+
+.TextPresentation .textpresentation-desc{
+    font-size: 1.2em;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    margin-top: 0.4em;
+    color: var(--color-one);
+}
+
+.TextPresentation img{
+    width: 16em;
+    margin: auto;
+    margin-top: 0.7em;
+    border: solid 0.3em var(--color-one);
+    border-radius: 50%;
+}

@@ -1,0 +1,7 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-four);
+  width: 100%;
+  height:100%;
+}
